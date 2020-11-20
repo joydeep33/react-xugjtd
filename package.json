@@ -1,0 +1,22 @@
+{
+  "name": "asct3v--run",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-virtuoso": "0.20.1",
+    "faker": "4.1.0",
+    "lodash": "4.17.11",
+    "styled-components": "4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
