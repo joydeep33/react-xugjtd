@@ -12,7 +12,6 @@ export default () => {
   // finally, the groupCounts specifies how many items each
   // group has -> [ 20, 30, 15, 10 ], etc.
   const { users, groups, groupCounts } = generateGroupedUsers(500);
-  console.log("groups",groups);
   return (
     <GroupedVirtuoso
       style={{ height: "350px", width: "400px" }}
